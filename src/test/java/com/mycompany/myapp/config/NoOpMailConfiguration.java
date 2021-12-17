@@ -20,6 +20,7 @@ public class NoOpMailConfiguration {
 
     @Bean
     public MailService mailService() {
+        // test contribur
         return mockMailService;
     }
 }
